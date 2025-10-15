@@ -20,11 +20,11 @@
   <a href="./readme.md">English</a> | <strong>简体中文</strong> | <a href="./readme_jp.md">日本語</a> | <a href="https://www.aionui.com" target="_blank">官网</a> | <a href="https://twitter.com/AionUI" target="_blank">Twitter</a>
 </p>
 
-## 🎯 **AionUi 用例展示**
+## 🎯 **AionUi 能帮你做什么？**
 
 ### 🤖 **多代理模式**
 
-_无缝集成多个终端 AI 代理 - Gemini CLI、Claude Code、Qwen Code 等_
+_一个界面管理多个 AI 助手 - Gemini、Claude、Qwen、Codex 等，想用哪个用哪个_
 
 <p align="center">
   <img src="./resources/multi-agent.gif" alt="多代理模式演示" width="800">
@@ -32,7 +32,7 @@ _无缝集成多个终端 AI 代理 - Gemini CLI、Claude Code、Qwen Code 等_
 
 ### 🎨 **AI 图像生成与编辑**
 
-_智能图像生成、编辑和识别，由 Gemini 2.5 Flash Image Preview 驱动_
+_用 AI 生成、编辑图片，就像有个专业设计师帮你_
 
 <p align="center">
   <img src="./resources/Image_Generation.gif" alt="AI 图像生成演示" width="800">
@@ -140,7 +140,7 @@ AionUi 为需要更好工作流效率的用户提供了现代界面，同时**�
 - **登录方便** - 支持 Google 账号登录或 API Key 认证，灵活选择
 - **自动修复** - 自动检测并修复配置问题，不用手动调试
 
-## 🚀 快速开始
+## 🚀 快速上手
 
 ### 📥 下载
 
