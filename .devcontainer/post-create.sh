@@ -1,15 +1,18 @@
 #!/bin/bash
 
-# Post-create script for AionUi devcontainer
-echo "🚀 Setting up AionUi development environment..."
+# Post-create script for AionUi devcontainer (Web version)
+echo "🚀 Setting up AionUi web development environment..."
 
-# Install dependencies
+# Clean npm cache to avoid permission issues
+echo "🧹 Cleaning npm cache..."
+npm cache clean --force
+
+# Install dependencies (skip optional native modules for web version)
 echo "📦 Installing dependencies..."
-npm install
+npm install --omit=optional
 
-# Rebuild native modules (needed for better-sqlite3 and other native deps)
-echo "🔨 Rebuilding native modules..."
-npm run postinstall
+# Skip the Electron postinstall script for web version
+echo "⚠️ Skipping Electron-specific setup (not needed for web version)"
 
 # Build the project
 echo "🏗️ Building the project..."
@@ -24,4 +27,6 @@ echo "  npm run webui"
 echo ""
 echo "Or for remote access:"
 echo "  npm run webui:remote"
+echo ""
+echo "🌐 The web interface will be available at the forwarded port (usually 3000)"
 echo ""
