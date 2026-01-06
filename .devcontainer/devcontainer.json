@@ -10,6 +10,9 @@
       "version": "20",
       "nodeGypDependencies": true,
       "installYarnUsingApt": true
+    },
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
     }
   },
   "customizations": {
